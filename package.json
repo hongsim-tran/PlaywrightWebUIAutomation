@@ -1,0 +1,22 @@
+{
+  "name": "playwrightwebautomation",
+  "version": "1.0.0",
+  "description": "Playwright End-to-End UI and API Test Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "local-test": "ENV=local npx playwright test",
+    "prod-test": "ENV=prod npx playwright test"
+  },
+  "author": "simtran",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.9",
+    "dotenv": "^16.4.5",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.6"
+  }
+}
